@@ -62,9 +62,9 @@ if len(sys.argv) != 2:
     print "\nThis program required one Mount point or Directory: Example " + sys.argv[0] + " /DirectoryName\n"
     sys.exit(1)
 
-mountpoint = sys.argv[1]
-
 print "\n##########################-Welcome to Get Disk Usage-###########################"
+
+mountpoint = sys.argv[1]
 
 Error_handling(mountpoint)
 
