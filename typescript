@@ -1,0 +1,83 @@
+Script started on Sun 03 Dec 2017 08:58:17 PM PST
+]0;aurelienit@ubuntu: ~[01;32maurelienit@ubuntu[00m:[01;34m~[00m$ cd Home[K[K[K[K/home/aurelienit/Desktop/
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ .get[K[K[K/getdiskusage.py /tmp
+
+##########################-Welcome to Get Disk Usage-###########################
+
+List of files in: /tmp
+{
+      "files": {
+            "/tmp/unity_support_test.0": 0, 
+            "/tmp/config-err-RAozv0": 0, 
+            "/tmp/.s.PGSQL.5432.lock": 63, 
+            "/tmp/.X0-lock": 11
+      }
+}
+
+***********************************************************************************
+***********************************************************************************
+
+Do you want to see the files in the sub-directory(ies)? Enter Yes or No
+yes
+
+List of files in: /tmp/bundler
+{
+      "files": {}
+}
+
+List of files in: /tmp/.X11-unix
+{
+      "files": {}
+}
+
+List of files in: /tmp/VMwareDnD
+{
+      "files": {}
+}
+
+Sorry! You do not have access to /tmp/systemd-private-3325b80c6d69435cb31ed7d429703208-rtkit-daemon.service-sOy5Hm directory! Check with your Admin!
+
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ ./getdiskusage.py /tmp[K[K[Kroot
+
+##########################-Welcome to Get Disk Usage-###########################
+
+Sorry! You do not have access to /root directory! Check with your Admin!
+
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ ./getdiskusage.py /root[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for aurelienit: 
+
+##########################-Welcome to Get Disk Usage-###########################
+
+List of files in: /root
+{
+      "files": {
+            "/root/.profile": 148, 
+            "/root/.bashrc": 3106
+      }
+}
+
+***********************************************************************************
+***********************************************************************************
+
+Do you want to see the files in the sub-directory(ies)? Enter Yes or No
+No
+########################-Thank you for using this program-########################
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ sudo ./getdiskusage.py /root[K[K[K[Ktpmm
+
+##########################-Welcome to Get Disk Usage-###########################
+
+Oops! This mountpoint /tpmm does not exist! Try again!
+
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ sudo ./getdiskusage.py /tpmm[K[K[K[K[Ktest.py
+
+##########################-Welcome to Get Disk Usage-###########################
+
+Oops! This program require a valide directory.test.py is not a directory!
+
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ sudo ./getdiskusage.py test.py[K[K[K[K[K[K[K/root[K[K[K[Ktmp /home
+
+This program required one Mount point or Directory: Example ./getdiskusage.py /DirectoryName
+
+]0;aurelienit@ubuntu: ~/Desktop[01;32maurelienit@ubuntu[00m:[01;34m~/Desktop[00m$ exit
+
+Script done on Sun 03 Dec 2017 09:00:03 PM PST
