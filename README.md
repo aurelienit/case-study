@@ -39,6 +39,7 @@ The program returns error if:
 ### Requirements
 Python module os, sys, json and errno.<br />
 At least Python 2.6<br />
+Unix/Linux OS, for my testing section I used Ubuntu.
 
 ### Tests
 Check File named "typescript" for program test.
