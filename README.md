@@ -30,14 +30,15 @@ The program will list of the file under the specify directory. If the directory 
 
 The program returns error if:
  errno.EACCES
- # Display Error Message if access required
+ #### Display Error Message if access required
  errno.ENOENT
- # Display Error Message if Mount point does not exist
+ #### Display Error Message if Mount point does not exist
  errno.ENOTDIR
- # Display Error Message if not a valid Directory
+ #### Display Error Message if not a valid Directory
 
 ### Requirements
 Python module os, sys, json and errno.<br />
 At least Python 2.6<br />
 
 ### Tests
+Check File named "Typescript" for program test.
