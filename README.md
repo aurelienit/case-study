@@ -41,4 +41,4 @@ Python module os, sys, json and errno.<br />
 At least Python 2.6<br />
 
 ### Tests
-Check File named "Typescript" for program test.
+Check File named "typescript" for program test.
