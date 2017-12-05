@@ -3,7 +3,7 @@
 This program has been written using Python.
 
 ### Motivation
-To be able to check disk usage by listing all the files of a specific mount point in any Unix Environment. Print size of file in bytes in a JSON format.
+To be able to check disk usage by listing all the files of a specific mount point in any Unix and Windows Environment. Print size of file in bytes in a JSON format.
 
 ### Output Example
 
